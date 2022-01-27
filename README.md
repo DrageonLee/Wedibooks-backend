@@ -1,7 +1,7 @@
 # Wedibooks 📚
 >Redibooks motive project
 >
->웹 사이트 | [구현 영상](https://mybox.naver.com/#/video/viewer/3472460813477180968:1445772/%7B%22parentKey%22%3A%22c21pbGV5b25uaXwzNDcyMzU2NDAwNzYyNjg1NzAwfER8MA%22%7D)   
+>웹 사이트 | [시현 영상](https://youtu.be/lOiYYq0XvAc)   
 
 ## 개발 기간 및 인원
 **개발 기간**: 2021/11/01 ~ 2021/11/12
@@ -19,17 +19,17 @@
 - Javascript
 - React.js
 - sass
-- react-model
 - Python
 - Django
 - MySQL
+- JWT
 - AWS EC2, RDS
 - Git, Github
 - Slack, Trello
 
 ## 구현 기능
 > 회원가입 / 로그인 기능 구현
-- Bcrypt 암호화, 회원가입 유효성 검사
+- Bcrypt 암호화, 회원가입, 로그인 유효성 검사
 - JWT access token 전송
 - Login Decorator
 
