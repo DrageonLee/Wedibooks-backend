@@ -15,7 +15,7 @@ class ReviewView(View):
             rating  = data['rating']
             content = data['content']
 
-            if not re.match('^\d+(?=[.]?[0,5])$', str(rating)):
+            if not re.match('^[0-5]+(?=[.]?[0,5]$)', str(rating)):
                 return JsonResponse({"message": "Rating_Validation_Error"}, status=400)
             
             Review.objects.create(
